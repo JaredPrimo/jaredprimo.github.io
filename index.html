@@ -1,438 +1,87 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal portfolio of Jared Primo - Supply Chain Analyst, Computer Science student, and technology enthusiast.">
-    <title>Jared Primo | Personal Portfolio</title>
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background: #fafafa;
-            color: #222;
-            line-height: 1.7;
-        }
-
-        a {
-            color: inherit;
-            text-decoration: none;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1000px;
-            margin: auto;
-        }
-
-        /* Navigation */
-
-        header {
-            padding: 25px 0;
-            border-bottom: 1px solid #e5e5e5;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-size: 1.2rem;
-            font-weight: bold;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 25px;
-            list-style: none;
-            font-size: 0.9rem;
-        }
-
-        .nav-links a:hover {
-            color: #777;
-        }
-
-        /* Hero */
-
-        .hero {
-            padding: 110px 0 100px;
-        }
-
-        .hero-label {
-            color: #777;
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-bottom: 20px;
-        }
-
-        .hero h1 {
-            font-size: clamp(2.5rem, 6vw, 4.5rem);
-            line-height: 1.1;
-            max-width: 750px;
-            margin-bottom: 25px;
-        }
-
-        .hero h1 span {
-            color: #777;
-        }
-
-        .hero p {
-            max-width: 650px;
-            color: #666;
-            font-size: 1.1rem;
-            margin-bottom: 30px;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 11px 22px;
-            border: 1px solid #222;
-            margin-right: 10px;
-            font-size: 0.9rem;
-            transition: 0.2s;
-        }
-
-        .button:hover {
-            background: #222;
-            color: white;
-        }
-
-        /* Sections */
-
-        section {
-            padding: 65px 0;
-            border-top: 1px solid #e5e5e5;
-        }
-
-        .section-label {
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: #888;
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            font-size: 2rem;
-            margin-bottom: 25px;
-        }
-
-        .about-text {
-            max-width: 750px;
-            color: #555;
-        }
-
-        /* Skills */
-
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 30px;
-        }
-
-        .skill-group h3 {
-            margin-bottom: 12px;
-            font-size: 1rem;
-        }
-
-        .skill-group ul {
-            list-style: none;
-            color: #666;
-            font-size: 0.95rem;
-        }
-
-        /* Projects */
-
-        .projects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-
-        .project {
-            border: 1px solid #e5e5e5;
-            padding: 25px;
-            transition: 0.2s;
-        }
-
-        .project:hover {
-            border-color: #888;
-        }
-
-        .project h3 {
-            margin-bottom: 10px;
-        }
-
-        .project p {
-            color: #666;
-            font-size: 0.9rem;
-            margin-bottom: 15px;
-        }
-
-        .project a {
-            font-size: 0.85rem;
-            text-decoration: underline;
-        }
-
-        /* Contact */
-
-        .contact-text {
-            color: #666;
-            margin-bottom: 25px;
-        }
-
-        footer {
-            padding: 30px 0;
-            border-top: 1px solid #e5e5e5;
-            color: #888;
-            font-size: 0.85rem;
-        }
-
-        @media (max-width: 600px) {
-            .nav-links {
-                gap: 12px;
-                font-size: 0.8rem;
-            }
-
-            .hero {
-                padding: 75px 0;
-            }
-
-            .hero h1 {
-                font-size: 2.7rem;
-            }
-        }
-    </style>
+<meta charset="utf
+-
+8">
+<meta name="viewport" content="width=device
+-
+width, initial
+-
+scale=1">
+<title>[Your Name] | Student Professional</title>
+<meta name="description" content="Professional website for [Your Name], a computer science student.">
+<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+<a class="skip
+-
+link" href="#main
+-
+content">Skip to main content</a>
+<header class="site
+-
+header">
+<div class="container">
+<p class="eyebrow">Computer Science Student</p>
+<h1>[Your Name]</h1>
+<p class="tagline">[A short professional introduction.]</p>
+<nav aria
+-
+label="Primary navigation">
+    CPSC 20000 | GITHUB PAGES STUDENT GUIDE
 
-    <header>
-        <div class="container">
-            <nav>
-                <a href="#" class="logo">JP.</a>
+CPSC 20000 • Introduction to Computer Science • Page
+ 
+4
 
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main>
-
-        <!-- Introduction -->
-
-        <div class="container">
-            <div class="hero">
-                <div class="hero-label">Hello, I'm Jared Primo</div>
-
-                <h1>
-                    Business meets technology.
-                    <span>I'm building at the intersection.</span>
-                </h1>
-
-                <p>
-                    Supply Chain Analyst, Computer Science student, and
-                    technology enthusiast interested in solving real-world
-                    business problems through data, automation, and software.
-                </p>
-
-                <a href="#projects" class="button">Explore my work</a>
-                <a href="#contact" class="button">Get in touch</a>
-            </div>
-        </div>
-
-        <!-- About -->
-
-        <section id="about">
-            <div class="container">
-                <div class="section-label">01 / About me</div>
-
-                <h2>A little about myself.</h2>
-
-                <div class="about-text">
-                    <p>
-                        My professional background is rooted in business
-                        operations, pharmaceutical distribution, and brand
-                        management. I currently work as a Supply Chain Analyst,
-                        where I focus on improving procurement processes,
-                        reporting, inventory management, and operational
-                        efficiency.
-                    </p>
-
-                    <br>
-
-                    <p>
-                        Alongside my professional career, I am pursuing
-                        Computer Science at Lewis University. I am particularly
-                        interested in the intersection of software development
-                        and supply chain management, exploring how technology
-                        can make business processes more efficient, reliable,
-                        and scalable.
-                    </p>
-
-                    <br>
-
-                    <p>
-                        I enjoy learning by building, experimenting with
-                        different technologies, and applying technical
-                        knowledge to practical problems.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills -->
-
-        <section id="skills">
-            <div class="container">
-                <div class="section-label">02 / Skills & interests</div>
-
-                <h2>What I work with.</h2>
-
-                <div class="skills-grid">
-
-                    <div class="skill-group">
-                        <h3>Programming</h3>
-                        <ul>
-                            <li>C#</li>
-                            <li>Python</li>
-                            <li>SQL</li>
-                            <li>HTML & CSS</li>
-                        </ul>
-                    </div>
-
-                    <div class="skill-group">
-                        <h3>Data & Analytics</h3>
-                        <ul>
-                            <li>Microsoft Excel</li>
-                            <li>Data Analysis</li>
-                            <li>Reporting & Dashboards</li>
-                            <li>Demand Forecasting</li>
-                        </ul>
-                    </div>
-
-                    <div class="skill-group">
-                        <h3>Business & Operations</h3>
-                        <ul>
-                            <li>Supply Chain Management</li>
-                            <li>Inventory Management</li>
-                            <li>Procurement</li>
-                            <li>Process Improvement</li>
-                        </ul>
-                    </div>
-
-                    <div class="skill-group">
-                        <h3>Currently Exploring</h3>
-                        <ul>
-                            <li>Software Architecture</li>
-                            <li>Database Design</li>
-                            <li>Automation</li>
-                            <li>Business Intelligence</li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects -->
-
-        <section id="projects">
-            <div class="container">
-                <div class="section-label">03 / Projects</div>
-
-                <h2>Things I'm building.</h2>
-
-                <div class="projects-grid">
-
-                    <div class="project">
-                        <h3>CRUD Application</h3>
-                        <p>
-                            Exploring software development and database
-                            operations through a C# application.
-                        </p>
-                        <a href="https://github.com/JaredPrimo/C-CRUD-Test"
-                           target="_blank">
-                            View on GitHub →
-                        </a>
-                    </div>
-
-                    <div class="project">
-                        <h3>Pharmacy Inventory System</h3>
-                        <p>
-                            Exploring the development of inventory
-                            management software tailored to pharmaceutical
-                            distribution and pharmacy operations.
-                        </p>
-                        <a href="https://github.com/JaredPrimo"
-                           target="_blank">
-                            View GitHub profile →
-                        </a>
-                    </div>
-
-                    <div class="project">
-                        <h3>More coming soon</h3>
-                        <p>
-                            Currently learning, experimenting, and
-                            developing new projects.
-                        </p>
-                        <a href="https://github.com/JaredPrimo"
-                           target="_blank">
-                            Follow my progress →
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact -->
-
-        <section id="contact">
-            <div class="container">
-                <div class="section-label">04 / Contact</div>
-
-                <h2>Let's connect.</h2>
-
-                <p class="contact-text">
-                    Interested in technology, software development,
-                    supply chain innovation, or potential collaborations?
-                    Feel free to reach out.
-                </p>
-
-                <a href="https://github.com/JaredPrimo"
-                   class="button" target="_blank">
-                    GitHub
-                </a>
-            </div>
-        </section>
-
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>© 2026 Jared Primo. Built with HTML & CSS.</p>
-        </div>
-    </footer>
-
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#goals">Goals</a></li>
+<li><a href="#connect">Connect</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main id="main
+-
+content" class="container">
+<section id="about">
+<h2>About Me</h2>
+<p>[Introduce yourself as a student professional.]</p>
+</section>
+<section id="skills">
+<h2>Skills and Interests</h2>
+<ul class="tag
+-
+list">
+<li>[Skill or interest]</li>
+<li>[Skill or interest]</li>
+<li>[Skill or interest]</li>
+</ul>
+</section>
+<section id="projects">
+<h2>Selected Work</h2>
+<article class="card">
+<h3>[Project or course activity]</h3>
+<p>[Explain the problem, your contribution, and what you learned.]</p>
+</article>
+</section>
+<section id="goals">
+<h2>Professional Goals</h2>
+<p>[Describe a field, role, or next step you are exploring.]</p>
+</section>
+<section id="connect">
+<h2>Connect</h2>
+<p><a href="[FULL LINKEDIN URL]">View my LinkedIn profile</a></p>
+</section>
+</main>
+<footer>
+<div class="container">
+<p>&copy; 2026 [Your Name]. Built with accessible HTML and CSS.</p>
+</div>
+</footer>
 </body>
 </html>
