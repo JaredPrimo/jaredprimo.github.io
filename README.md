@@ -1,1 +1,1 @@
-Attempting to develop portfolio site
+Portfolio site detailing who i am, my goals and current experience
